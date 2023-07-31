@@ -120,7 +120,7 @@ export default function page() {
     summary="Immerse
      yourself in a world of captivating shows and movies, 
      all in the palm of your hand. Developed with ReactJS
-      and Next.js, and powered by a rendered API, our app
+      and Next.js, and consumed all RESTful APIs, our app
        ensures a smooth and engaging user experience. With
         its sleek design and intuitive navigation, finding
          your favorite content has never been easier. 
