@@ -30,7 +30,7 @@ export default function Page() {
       <h1 className='font-extrabold text-3xl text-purple-500'>I am a Frontend developer.</h1>
             </motion.p>
           </motion.div>
-          <motion.p className='font-bold md:w-[60%]' initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { delay: 1 } }}>
+          <motion.p className='font-bold md:w-[50%]  ' initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { delay: 1 } }}>
             Hello there! I am delighted to welcome you to my virtual abode, where the realms of
             creativity and technology converge. Allow me to introduce myself –
             I am Chidinma Nwaneti, a frontend developer with a deep passion
@@ -40,12 +40,12 @@ export default function Page() {
           </motion.p>
         </div>
         <Link href='/chidinma-nwaneti-cv.pdf' target={'_blank'}>
-          <div className='bg-black text-white ml-5 mt-6 rounded-lg w-28 h-10 justify-between px-2 text-center py-2 flex'>Resume <BiLinkExternal size={20} /></div>
+          <div className='bg-black text-white ml-5 mt-6 rounded-lg w-28 h-10 justify-between px-2 text-center py-2 flex'>Resume <BiLinkExternal size={20} />
+          
+          </div>
         </Link>
+        <div className='ml-[50%] w-full'><HireMe /></div>
 
-        <div className='ml-[50%] w-full'>
-          <HireMe />
-        </div>
       </div>
     </div>
   );
