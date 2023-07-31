@@ -20,7 +20,7 @@ export default function page() {
            
             <Link href={link} target="_blank"
             className='w-1/2 cursor-pointer overflow-hidden rounded-lg '>
-            <Image src={img} alt={title} width={150} height={150} className='mx-auto'></Image>
+            <Image src={img} alt={title} width={150} height={150} className='mx-auto hidden sm:block'></Image>
             </Link>
             <div className='flex flex-col items-start justify-between left-6'>
             <span className='text-purple-500 font-medium text-xl'>{type}</span>
@@ -48,7 +48,7 @@ export default function page() {
 
             <Link href={link} target="_blank"
             className='w-1/2 cursor-pointer overflow-hidden rounded-lg '>
-            <Image src={img} alt={title} width={150} height={150} className='mx-auto'></Image>
+            <Image src={img} alt={title} width={150} height={150} className='mx-auto hidden sm:block'></Image>
             </Link>
             <div className='flex flex-col items-start justify-between left-6'>
             <span className='text-purple-500 font-medium text-xl'>{type}</span>
@@ -78,7 +78,7 @@ export default function page() {
           <div className='flex flex-col items-start justify-between left-6'>
           <span className='text-purple-500 font-medium text-xl'>{type}</span>
           <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
-          <Image src={img} alt={title} width={200} height={100} className='mx-auto'></Image>
+          <Image src={img} alt={title} width={200} height={100} className='mx-auto '></Image>
           <h2 className='my-2 text-left text-4xl font-bold '>{title} </h2></Link>
           <p className='my-2 font-medium text-black'>{summary} </p>
           <div className='mt-2 flex justify-between w-full items-center'> 

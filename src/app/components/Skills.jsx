@@ -18,7 +18,7 @@ export default function Skills() {
     };
 
     return (
-        <div className='md:w-full w-[50%] mx-auto'>
+        <div className='md:w-full w-[50%] mx-auto hidden sm:block'>
             <h2 className='font-bold md:text-8xl text-5xl md:mt-32 my-20 w-full text-center'>Skills</h2>
             <div className='md:w-full mx-auto md:h-screen  relative flex items-center justify-center rounded-full bg-circularLight'>
                 <motion.div

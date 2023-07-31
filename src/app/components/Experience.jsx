@@ -4,7 +4,7 @@ import React from 'react';
 export default function Experience() {
   const Details = ({ position, company, companyLink, time, address, work }) => {
     return (
-      <li className='my-8 w-[60%] mx-auto flex justify-between flex-col'>
+      <li className='md:my-8 w-[60%] mx-auto flex justify-between flex-col mb-5'>
         <h2 className='capitalize text-2xl font-bold'>
           {position} &nbsp; <a href={companyLink} target='_blank' className='text-purple-500 capitalize'>@{company}</a>
         </h2>
@@ -18,7 +18,7 @@ export default function Experience() {
 
   return (
     <div>
-      <div className='md:mt-32 mb-16'>
+      <div className='md:mt-32 mt-14 mb-10'>
         <h2 className='font-bold md:text-8xl text-5xl  w-full text-center'>Experience</h2>
       </div>
       <div className='mb-20'>
