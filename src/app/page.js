@@ -39,7 +39,7 @@ export default function Page() {
             seamless user interfaces, and cutting-edge web development.
           </motion.p>
         </div>
-        <Link href='/chidinma-nwaneti-cv.pdf' target={'_blank'}>
+        <Link href='/cv.pdf' target={'_blank'}>
           <div className='bg-black text-white ml-5 mt-6 rounded-lg w-28 h-10 justify-between px-2 text-center py-2 flex'>Resume <BiLinkExternal size={20} />
           
           </div>
