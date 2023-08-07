@@ -7,6 +7,7 @@ import { AiOutlineGithub } from 'react-icons/ai'
 import pic from "../images/store.jpg"
 import mine from "../images/tv.jpg"
 import nep from "../images/Capture.png"
+import pica from "../images/screen.jpg"
 
 
 
@@ -111,7 +112,20 @@ export default function page() {
      link='https://resplendent-duckanoo-c880af.netlify.app'
      github='https://github.com/chinwaneti'
     />
-   
+    <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '>
+    <Featured 
+    type=' Project'
+    title="Shopee (e-commerce)"
+    img={pica}
+    summary="Welcome to our innovative e-commerce app, 
+    powered by a skillful blend of ReactJS and Next.js.
+     Stylish designed using Tailwind CSS, 
+     Discover convenience 
+     and elegance as you shop for your favorite products."
+     link='https://joyful-bienenstitch-712583.netlify.app'
+     github='https://github.com/chinwaneti'
+    />
+   </div>
     <div className=''>
     <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '> 
     <Project type='Project'
