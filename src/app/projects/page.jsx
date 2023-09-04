@@ -122,7 +122,7 @@ export default function page() {
      Stylish designed using Tailwind CSS, 
      Discover convenience 
      and elegance as you shop for your favorite products."
-     link='https://joyful-bienenstitch-712583.netlify.app'
+     link='https://serene-centaur-dd7abc.netlify.app'
      github='https://github.com/chinwaneti'
     />
    </div>
