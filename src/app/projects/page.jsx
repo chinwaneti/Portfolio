@@ -118,7 +118,7 @@ export default function page() {
     title="Oja (e-commerce)"
     img={pica}
     summary="Welcome to our innovative e-commerce app, 
-    powered by a skillful blend of ReactJS and Next.js.
+    powered by ReactJS, Redux and Redux tool kit for state management.
      Stylish designed using Tailwind CSS, 
      Discover convenience 
      and elegance as you shop for your favorite products."
