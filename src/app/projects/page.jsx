@@ -115,7 +115,7 @@ export default function page() {
     <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '>
     <Featured 
     type=' Project'
-    title="Shopee (e-commerce)"
+    title="Oja (e-commerce)"
     img={pica}
     summary="Welcome to our innovative e-commerce app, 
     powered by a skillful blend of ReactJS and Next.js.
