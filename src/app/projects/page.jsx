@@ -133,10 +133,10 @@ export default function page() {
     img={mine}
     summary="Immerse
      yourself in a world of captivating shows and movies, 
-     all in the palm of your hand. Developed with ReactJS
-      and Next.js, and consumed all RESTful APIs, our app
+     all in the palm of your hand. Developed with ReactJS,
+        Consumed the TMDB API to fetch movie data. Our app
        ensures a smooth and engaging user experience. With
-        its sleek design and intuitive navigation, finding
+        its sleek design and intuitive navigation, finding and watching
          your favorite content has never been easier. 
          Hosted on Netlify, it offers seamless streaming 
          and top-notch performance."
