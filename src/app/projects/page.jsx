@@ -138,10 +138,8 @@ export default function page() {
        ensures a smooth and engaging user experience. With
         its sleek design and intuitive navigation, finding and watching
          your favorite content has never been easier. 
-         Hosted on Netlify, it offers seamless streaming 
+         Hosted on Vercel, it offers seamless streaming 
          and top-notch performance."
-
-
      link='https://zuri-stage-2.vercel.app/'
      github='https://github.com/chinwaneti/zuri-stage-2'
     />
