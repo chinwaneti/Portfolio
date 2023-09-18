@@ -110,7 +110,7 @@ export default function page() {
      times and secure transactions. Discover convenience 
      and elegance as you shop for your favorite products, all in one place."
      link='https://resplendent-duckanoo-c880af.netlify.app'
-     github='https://github.com/chinwaneti'
+     github='https://github.com/chinwaneti/capstone-project'
     />
     <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '>
     <Featured 
@@ -123,13 +123,13 @@ export default function page() {
      Discover convenience 
      and elegance as you shop for your favorite products."
      link='https://serene-centaur-dd7abc.netlify.app'
-     github='https://github.com/chinwaneti'
+     github='https://github.com/chinwaneti/oja'
     />
    </div>
     <div className=''>
     <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '> 
     <Project type='Project'
-    title="Mma Tv"
+    title="MovieHub"
     img={mine}
     summary="Immerse
      yourself in a world of captivating shows and movies, 
@@ -142,8 +142,8 @@ export default function page() {
          and top-notch performance."
 
 
-     link='https://meek-queijadas-cdf6f1.netlify.app/'
-     github='https://github.com/chinwaneti'
+     link='https:https://zuri-stage-2.vercel.app/'
+     github='https://github.com/chinwaneti/zuri-stage-2'
     />
     </div>
    
