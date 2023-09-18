@@ -142,7 +142,7 @@ export default function page() {
          and top-notch performance."
 
 
-     link='https:https://zuri-stage-2.vercel.app/'
+     link='https://zuri-stage-2.vercel.app/'
      github='https://github.com/chinwaneti/zuri-stage-2'
     />
     </div>
