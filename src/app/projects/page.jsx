@@ -8,7 +8,7 @@ import pic from "../images/store.jpg"
 import mine from "../images/tv.jpg"
 import nep from "../images/Capture.png"
 import pica from "../images/screen.jpg"
-import todo from "../images/Capture.png
+import todo from "../images/todo.png
 
 
 
