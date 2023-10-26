@@ -8,6 +8,7 @@ import pic from "../images/store.jpg"
 import mine from "../images/tv.jpg"
 import nep from "../images/Capture.png"
 import pica from "../images/screen.jpg"
+import todo from "../images/Capture.png
 
 
 
@@ -42,6 +43,32 @@ export default function page() {
     }
   
     const Project = ({type, title, summary, img, link, github}) =>{
+        return(
+            <div className='md:w-[90%] relative mx-auto  flex items-center border-solid border-black border-2 justify-between rounded-3xl bg-white shadow-2xl p-8'>
+
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black '/>
+
+            <Link href={link} target="_blank"
+            className='w-1/2 cursor-pointer overflow-hidden rounded-lg '>
+            <Image src={img} alt={title} width={150} height={150} className='mx-auto hidden sm:block'></Image>
+            </Link>
+            <div className='flex flex-col items-start justify-between left-6'>
+            <span className='text-purple-500 font-medium text-xl'>{type}</span>
+            <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+            <h2 className='my-2 text-left text-4xl font-bold '>{title} </h2></Link>
+            <div className='mt-2 flex items-center'> 
+            <Link href={github} target="_blank" className=' w-10'>
+            <h2><AiOutlineGithub /> </h2></Link>
+            <Link href={link} target="_blank" >
+            <h2 className='ml-4 rounded-lg text-right bg-black p-2 font-semibold text-white px-6'>Visit Project</h2></Link>
+            </div>
+            <p className='my-2 font-medium text-black'>{summary} </p>
+            <div></div>
+            </div>
+            </div>
+        )
+    }
+    const Project1 = ({type, title, summary, img, link, github}) =>{
         return(
             <div className='md:w-[90%] relative mx-auto  flex items-center border-solid border-black border-2 justify-between rounded-3xl bg-white shadow-2xl p-8'>
 
@@ -142,6 +169,25 @@ export default function page() {
          and top-notch performance."
      link='https://zuri-stage-2.vercel.app/'
      github='https://github.com/chinwaneti/zuri-stage-2'
+    />
+    </div>
+    <div className=''>
+    <div className='my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto '> 
+    <Project1 type='Project'
+    title="Todo-List"
+    img={todo}
+    summary="I developed Todo-List application using a 
+        stack of modern web technologies to provide a seamless
+        and efficient task management experience. 
+        Built on Next.js, a powerful React framework, and leverages
+        the flexibility of ReactJS for creating dynamic user interfaces. 
+        Tailwind CSS was employed for styling, ensuring responsive design,
+        while Material-UI (MUI) components enhanced the overall user experience.
+        The app is integrated with Firebase, allowing for real-time data storage
+        and authentication, ensuring that user data is secure and accessible
+        from any device"
+     link='https://todo-mgt.vercel.app/'
+     github='https://github.com/chinwaneti/todo-mgt'
     />
     </div>
    
