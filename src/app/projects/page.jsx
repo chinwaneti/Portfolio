@@ -8,7 +8,7 @@ import pic from "../images/store.jpg"
 import mine from "../images/tv.jpg"
 import nep from "../images/Capture.png"
 import pica from "../images/screen.jpg"
-import todo from "../images/todo.png
+import todo from "../images/todo.PNG"
 
 
 
@@ -72,7 +72,7 @@ export default function page() {
         return(
             <div className='md:w-[90%] relative mx-auto  flex items-center border-solid border-black border-2 justify-between rounded-3xl bg-white shadow-2xl p-8'>
 
-            <div className='absolute top-10 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black '/>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black '/>
 
             <Link href={link} target="_blank"
             className='w-1/2 cursor-pointer overflow-hidden rounded-lg '>
