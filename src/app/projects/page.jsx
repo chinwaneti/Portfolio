@@ -7,7 +7,7 @@ import pic from "../images/store.jpg";
 import mine from "../images/tv.jpg";
 import nep from "../images/Capture.png";
 import pica from "../images/screen.jpg";
-import todo from "../images/todo.png";
+// import todo from "../images/todo.png";
 
 const ProjectCard = ({ type, title, summary, img, link, github }) => {
   return (
@@ -79,7 +79,7 @@ export default function Page() {
                 <ProjectCard
                   type="Project"
                   title="Todo-List"
-                  img={todo}
+{/*                   img={todo} */}
                   summary="I developed a Todo-List application using a stack of modern web technologies to provide a seamless and efficient task management experience. Built on Next.js, a powerful React framework, and leverages the flexibility of ReactJS for creating dynamic user interfaces. Tailwind CSS was employed for styling, ensuring responsive design, while Material-UI (MUI) components enhanced the overall user experience. The app is integrated with Firebase, allowing for real-time data storage and authentication, ensuring that user data is secure and accessible from any device."
                   link="https://todo-mgt.vercel.app/"
                   github="https://github.com/chinwaneti/todo-mgt"
