@@ -78,7 +78,7 @@ const NavLink = ({ href, children }) => {
 <div className='ml-1 '>
 <Hamburger />
 </div>
-<div className='absolute top-2 translate-x-[-40%]'><Logo /> </div>
+<div className='absolute top-2 translate-x-[-20%]'><Logo /> </div>
 <nav className='flex items-center sm:justify-end  space-x-5'>
     <motion.a href='https://twitter.com/Chi_Nwaneti' target={'_blank'} 
     whileHover={{y: -2}}
