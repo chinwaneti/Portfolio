@@ -50,7 +50,7 @@ export default function Page() {
             type="Featured Project"
             title="Chidinma"
 {/*             img={pic} */}
-                    <img src="https://www.wakamerestaurant.com/resourcefiles/homeimages/inside.jpg" alt="img" />
+                    <Image src="https://www.wakamerestaurant.com/resourcefiles/homeimages/inside.jpg" alt="img" />
 
             summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
             link="https://hotel-ruby-iota.vercel.app/"
