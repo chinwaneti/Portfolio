@@ -16,7 +16,7 @@ const ProjectCard = ({ type, title, summary, img, link, github }) => {
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black" />
 
       <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden rounded-lg">
-        <Image src={img} alt={title} width={150} height={150} className="mx-auto hidden sm:block" />
+        <Image src={img} width={150} height={150} className="mx-auto hidden sm:block" />
       </Link>
       <div className="flex flex-col items-start justify-between left-6">
         <span className="text-purple-500 font-medium text-xl">{type}</span>
