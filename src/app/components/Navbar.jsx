@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
       <Link href={href}>
-        <span className="h-[1px] w-full bg-black absolute left-0 -bottom-0.5 opacity-0 group-hover:opacity-100 transition-[width] ease-in-out duration-300" >
+        <span className="" >
           <motion.p
           initial={{ x: 0 }}
           whileHover={{ x: 5 }}
