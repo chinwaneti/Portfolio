@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AiOutlineGithub } from 'react-icons/ai';
-import pic from "../images/store.jpg";
+// import pic from "../images/store.jpg";
 import mine from "../images/tv.jpg";
 import nep from "../images/Capture.png";
 import pica from "../images/screen.jpg";
@@ -49,9 +49,11 @@ export default function Page() {
           <ProjectCard
             type="Featured Project"
             title="Chidinma"
-            img={pic}
+{/*             img={pic} */}
+                    <img src="https://www.wakamerestaurant.com/resourcefiles/homeimages/inside.jpg" alt="img" />
+
             summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
-            link="https://hotel-ruby-iota.vercel.app/signIn"
+            link="https://hotel-ruby-iota.vercel.app/"
             github="https://github.com/chinwaneti/hotel"
           />
 {/*           <ProjectCard
