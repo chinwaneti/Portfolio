@@ -60,7 +60,7 @@ const NavLink = ({ href, children }) => {
   </li>
   <li className="relative group">
     <NavLink href="/projects">
-      Project
+      ProjectS
     </NavLink>
   </li>
   <li className="relative group">
@@ -78,7 +78,7 @@ const NavLink = ({ href, children }) => {
 <div className='ml-1 '>
 <Hamburger />
 </div>
-<div className='absolute Md:left-[50%] top-2 translate-x-[-50%]'><Logo /> </div>
+<div className='absolute top-2 translate-x-[-45%]'><Logo /> </div>
 <nav className='flex items-center sm:justify-end  space-x-5'>
     <motion.a href='https://twitter.com/Chi_Nwaneti' target={'_blank'} 
     whileHover={{y: -2}}
