@@ -9,11 +9,11 @@ import MyComponent from './hooks/Mycomponents'
 import Hamburger from './Hamburger'
 
 export default function Navbar() {
-  const CustomLink = ({ href, title, className = "" }) => {
+  const CustomLink = ({ href, title,  }) => {
 
     return (
-      <Link href={href} className={`relative group cursor-pointer ${className}`}>
-        <span className="h-[1px] w-full bg-black absolute left-0 -bottom-0.5 opacity-0 group-hover:opacity-100 transition-[width] ease-in-out duration-300"
+      <Link href={href}>
+        <span className="h-[1px] w-full bg-black absolute left-0 -bottom-0.5 opacity-0 group-hover:opacity-100 transition-[width] ease-in-out duration-300" >
           <motion.p
           initial={{ x: 0 }}
           whileHover={{ x: 5 }}
@@ -22,8 +22,7 @@ export default function Navbar() {
         >
           {title}
         </motion.p>
-
-        >
+       
           &nbsp;
         </span>
       </Link>
