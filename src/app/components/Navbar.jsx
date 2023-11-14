@@ -9,27 +9,50 @@ import MyComponent from './hooks/Mycomponents'
 import Hamburger from './Hamburger'
 
 export default function Navbar() {
-  const CustomLink = ({ href, title, className = "" }) => {
+  // const CustomLink = ({ href, title, className = "" }) => {
 
-    return (
-      <Link href={href} className={`relative group ${className}`}>
-        {title}
-        <span
-          className="h-[1px] w-full bg-black absolute left-0 -bottom-0.5 opacity-0 group-hover:opacity-100 transition-[width] ease-in-out duration-300"
+  //   return (
+  //     <Link href={href} className={`relative group ${className}`}>
+  //       {title}
+  //       <span
+  //         className="h-[1px] w-full bg-black absolute left-0 -bottom-0.5 opacity-0 group-hover:opacity-100 transition-[width] ease-in-out duration-300"
+  //       >
+  //         &nbsp;
+  //       </span>
+  //     </Link>
+  //   );
+  // };
+
+  const NavLink = ({ href, title }) => {
+  return (
+    <Link href={href}>
+      <div className="relative group cursor-pointer">
+       
+        <motion.p
+          initial={{ x: 0 }}
+          whileHover={{ x: 5 }}
+          whileTap={{ scale: 0.9 }}
+          className="relative   group-hover:underline hide"
         >
-          &nbsp;
-        </span>
-      </Link>
-    );
-  };
+          {children}
+        </motion.p>
+      </div>
+    </Link>
+  );
+};
+
   
   return (
 <header className= 'md:w-full  bg-gray-100 text-black flex md:px-5 py-8 items-center justify-between space-x-10  font-medium '>
 <nav  className=' hidden md:block items-center justify-end md:space-x-10 space-x-3 '>
-<CustomLink href='/' title='Home' className=''/>
+<NavLink href='/' title='Home' className=''/>
+<NavLink href='/about' title='About' className=''/>
+<NavLink href='/projects' title='Projects' className=''/>
+<NavLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/>
+{/* <CustomLink href='/' title='Home' className=''/>
 <CustomLink href='/about' title='About' className=''/>
 <CustomLink href='/projects' title='Projects' className=''/>
-<CustomLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/>
+<CustomLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/> */}
 
 </nav>
 <div className='ml-1 '>
