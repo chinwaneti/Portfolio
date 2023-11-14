@@ -11,7 +11,7 @@ export default function Hamburger() {
     <div>
       <div
         onClick={() => setNav((prev) => !prev)}
-        className="xl:hidden block"
+{/*         className="xl:hidden block" */}
       >
         <BsFilterLeft size={30} className="z-50" />
       </div>
