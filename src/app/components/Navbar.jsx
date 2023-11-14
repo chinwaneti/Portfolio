@@ -34,7 +34,7 @@ export default function Navbar() {
           whileTap={{ scale: 0.9 }}
           className="relative   group-hover:underline hide"
         >
-          {children}
+          {title}
         </motion.p>
       </div>
     </Link>
