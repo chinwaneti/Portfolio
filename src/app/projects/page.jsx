@@ -4,19 +4,15 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AiOutlineGithub } from 'react-icons/ai';
-// import pic from "../images/store.jpg";
-import mine from "../images/tv.jpg";
-import nep from "../images/Capture.png";
-import pica from "../images/screen.jpg";
-// import todo from "../images/todo.png";
 
-const ProjectCard = ({ type, title, summary, img, link, github }) => {
+
+const ProjectCard = ({ type, title, summary,  link, github }) => {
   return (
     <div className="project-card md:w-[90%] relative mx-auto flex items-center border-solid border-black border-2 justify-between rounded-3xl bg-white shadow-2xl p-8">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black" />
 
       <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden rounded-lg">
-        <Image src={img} width={150} height={150} className="mx-auto hidden sm:block" />
+
       </Link>
       <div className="flex flex-col items-start justify-between left-6">
         <span className="text-purple-500 font-medium text-xl">{type}</span>
@@ -57,7 +53,6 @@ export default function Page() {
 {/*           <ProjectCard
             type="Featured Project"
             title="Mma Store (e-commerce)"
-            img={pic}
             summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
             link="https://resplendent-duckanoo-c880af.netlify.app"
             github="https://github.com/chinwaneti/capstone-project"
@@ -66,7 +61,6 @@ export default function Page() {
             <ProjectCard
               type="Project"
               title="Oja (e-commerce)"
-              img={pica}
               summary="Welcome to our innovative e-commerce app, powered by ReactJS, Redux, and Redux Toolkit for state management. Stylishly designed using Tailwind CSS. Discover convenience and elegance as you shop for your favorite products."
               link="https://serene-centaur-dd7abc.netlify.app"
               github="https://github.com/chinwaneti/oja"
@@ -77,7 +71,6 @@ export default function Page() {
               <ProjectCard
                 type="Project"
                 title="MovieHub"
-                img={mine}
                 summary="Immerse yourself in a world of captivating shows and movies, all in the palm of your hand. Developed with ReactJS. Consumed the TMDB API to fetch movie data. Our app ensures a smooth and engaging user experience. With its sleek design and intuitive navigation, finding and watching your favorite content has never been easier. Hosted on Vercel, it offers seamless streaming and top-notch performance."
                 link="https://zuri-stage-2.vercel.app/"
                 github="https://github.com/chinwaneti/zuri-stage-2"
@@ -99,7 +92,6 @@ export default function Page() {
               <ProjectCard
                 type="Project"
                 title="Mma Jobs"
-                img={nep}
                 summary="Welcome to our state-of-the-art TV app, where entertainment takes center stage. Immerse yourself in a world of captivating shows and movies, all in the palm of your hand. Developed with ReactJS and Next.js, and powered by a rendered API, our app ensures a smooth and engaging user experience. Hosted on Netlify, it offers seamless streaming and top-notch performance."
                 link="https://mma-jobs.netlify.app"
                 github="https://github.com/chinwaneti"
