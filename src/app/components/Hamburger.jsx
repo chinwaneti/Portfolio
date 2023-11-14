@@ -18,11 +18,11 @@ export default function Hamburger() {
 
       {/* Nav Menu (Hidden on big screens) */}
       <div
-        className={
+{/*         className={
           Nav
             ? 'fixed left-0 top-0 md:w-[30%] z-50 h-screen bg-gray-200 overscroll-auto p-10 ease-in duration-1000 block'
             : 'hidden'
-        }
+        } */}
       >
         <div className="flex overscroll-auto justify-end">
           <div onClick={() => setNav((prev) => !prev)}>
