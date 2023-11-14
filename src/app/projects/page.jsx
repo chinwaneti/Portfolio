@@ -48,12 +48,20 @@ export default function Page() {
         <div className="">
           <ProjectCard
             type="Featured Project"
+            title="Chidinma"
+            img={pic}
+            summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
+            link="https://hotel-ruby-iota.vercel.app/signIn"
+            github="https://github.com/chinwaneti/hotel"
+          />
+{/*           <ProjectCard
+            type="Featured Project"
             title="Mma Store (e-commerce)"
             img={pic}
             summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
             link="https://resplendent-duckanoo-c880af.netlify.app"
             github="https://github.com/chinwaneti/capstone-project"
-          />
+          /> */}
           <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
             <ProjectCard
               type="Project"
