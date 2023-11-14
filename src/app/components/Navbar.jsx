@@ -9,63 +9,76 @@ import MyComponent from './hooks/Mycomponents'
 import Hamburger from './Hamburger'
 
 export default function Navbar() {
-  const CustomLink = ({ href, title,  }) => {
+  // const CustomLink = ({ href, title,  }) => {
 
-    return (
-      <Link href={href}>
-        <span className="" >
-          <motion.p
+  //   return (
+  //     <Link href={href}>
+  //       <span className="" >
+  //         <motion.p
+  //         initial={{ x: 0 }}
+  //         whileHover={{ x: 5 }}
+  //         whileTap={{ scale: 0.9 }}
+  //         className="relative   group-hover:underline hide"
+  //       >
+  //         {title}
+  //       </motion.p>
+       
+  //         &nbsp;
+  //       </span>
+  //     </Link>
+  //   );
+  // };
+
+const NavLink = ({ href, children }) => {
+  return (
+    <Link href={href}>
+      <div className="relative group cursor-pointer">
+       
+        <motion.p
           initial={{ x: 0 }}
           whileHover={{ x: 5 }}
           whileTap={{ scale: 0.9 }}
-          className="relative   group-hover:underline hide"
+          className="relative z-10  group-hover:underline "
         >
-          {title}
+          {children}
         </motion.p>
-       
-          &nbsp;
-        </span>
-      </Link>
-    );
-  };
-
-//   const NavLink = ({ href, title }) => {
-//   return (
-//     <Link href={href}>
-//       <div className="relative group cursor-pointer">
-       
-//         <motion.p
-//           initial={{ x: 0 }}
-//           whileHover={{ x: 5 }}
-//           whileTap={{ scale: 0.9 }}
-//           className="relative   group-hover:underline hide"
-//         >
-//           {title}
-//         </motion.p>
-//       </div>
-//     </Link>
-//   );
-// };
+      </div>
+    </Link>
+  );
+};
 
   
   return (
 <header className= 'md:w-full  bg-gray-100 text-black flex md:px-5 py-8 items-center justify-between space-x-10  font-medium '>
-<nav  className=' hidden md:block items-center flex justify-end md:space-x-10 space-x-3 '>
-{/* <NavLink href='/' title='Home' className=''/>
-<NavLink href='/about' title='About' className=''/>
-<NavLink href='/projects' title='Projects' className=''/>
-<NavLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/> */}
+{/* <nav  className=' hidden md:block items-center flex justify-end md:space-x-10 space-x-3 '> */}
+    <ul className="hidden sm:flex md:flex space-x-10 text-sm items-center">
+  <li className="relative group">
+    <NavLink href="/">Home</NavLink>
+  </li>
+  <li className="relative group">
+    <NavLink href="/about">About</NavLink>
+  </li>
+  <li className="relative group">
+    <NavLink href="/project">
+      Project
+    </NavLink>
+  </li>
+  <li className="relative group">
+    <NavLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"}>Contact</NavLink>
+  </li>
+ 
+</ul>
   
-<CustomLink href='/' title='Home' className=''/>
+{/* <CustomLink href='/' title='Home' className=''/>
 <CustomLink href='/about' title='About' className=''/>
 <CustomLink href='/projects' title='Projects' className=''/>
-<CustomLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/>
+<CustomLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/> */}
 
-</nav>
+{/* </nav> */}
 <div className='ml-1 '>
 <Hamburger />
 </div>
-<div className='absolute Md:left-[50%] top-2 translate-x-[-50%]'><Logo /> </div>
+<div className='absolute md:left-[50%] top-2 translate-x-[-50%]'><Logo /> </div>
 <nav className='flex items-center sm:justify-end  space-x-5'>
     <motion.a href='https://twitter.com/Chi_Nwaneti' target={'_blank'} 
     whileHover={{y: -2}}
