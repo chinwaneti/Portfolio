@@ -75,7 +75,7 @@ const NavLink = ({ href, children }) => {
 <CustomLink href='mailto:chidinmanwaneti.cn@gmail.com'target={"_blank"} title='Contact' className=''/> */}
 
 {/* </nav> */}
-<div className='ml-1 '>
+<div className='ml-1 lg:hidden md:hidden '>
 <Hamburger />
 </div>
 <div className='absolute top-2 translate-x-[-20%]'><Logo /> </div>
