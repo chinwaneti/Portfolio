@@ -44,7 +44,7 @@ export default function Navbar() {
   
   return (
 <header className= 'md:w-full  bg-gray-100 text-black flex md:px-5 py-8 items-center justify-between space-x-10  font-medium '>
-<nav  className=' hidden md:block items-center justify-end md:space-x-10 space-x-3 '>
+<nav  className=' hidden md:block items-center flex justify-end md:space-x-10 space-x-3 '>
 <NavLink href='/' title='Home' className=''/>
 <NavLink href='/about' title='About' className=''/>
 <NavLink href='/projects' title='Projects' className=''/>
