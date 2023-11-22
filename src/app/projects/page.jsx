@@ -41,12 +41,28 @@ export default function Page() {
       </motion.p>
 
       <div className="">
+
+         <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+            <ProjectCard
+              type="Project"
+              title="Oja (e-commerce)"
+              summary="Welcome to our innovative e-commerce app, powered by ReactJS, Redux, and Redux Toolkit for state management. Stylishly designed using Tailwind CSS. Discover convenience and elegance as you shop for your favorite products."
+              link="https://serene-centaur-dd7abc.netlify.app"
+              github="https://github.com/chinwaneti/oja"
+            />
+           
         <div className="">
           <ProjectCard
-            type="Featured Project"
+            type=" Project"
             title="Chidinma"
             
-            summary="Welcome to our innovative e-commerce app, powered by a skillful blend of ReactJS and Next.js. Seamlessly designed using Tailwind CSS, it promises a delightful shopping experience. Hosted on Netlify, it guarantees swift loading times and secure transactions. Discover convenience and elegance as you shop for your favorite products, all in one place."
+           "Indulge in the epitome of luxury with our Chidinma Restuarant, where seamless elegance meets top-notch security. Powered by the perfect blend of ReactJS, Next.js, and fortified with Firebase authentication, our app ensures a sophisticated and secure experience as you explore and reserve our premium hospitality services. Designed with finesse using Tailwind CSS, this is where convenience and exclusivity converge. Immerse yourself in a world of seamless reservations and personalized services—all in one place."
+
+
+
+
+
+
             link="https://hotel-ruby-iota.vercel.app/"
             github="https://github.com/chinwaneti/hotel"
           />
@@ -57,17 +73,10 @@ export default function Page() {
             link="https://resplendent-duckanoo-c880af.netlify.app"
             github="https://github.com/chinwaneti/capstone-project"
           /> */}
-          <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
-            <ProjectCard
-              type="Project"
-              title="Oja (e-commerce)"
-              summary="Welcome to our innovative e-commerce app, powered by ReactJS, Redux, and Redux Toolkit for state management. Stylishly designed using Tailwind CSS. Discover convenience and elegance as you shop for your favorite products."
-              link="https://serene-centaur-dd7abc.netlify.app"
-              github="https://github.com/chinwaneti/oja"
-            />
+         
           </div>
           <div className="">
-            <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+            <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
               <ProjectCard
                 type="Project"
                 title="MovieHub"
@@ -77,7 +86,7 @@ export default function Page() {
               />
             </div>
             <div className="">
-              <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+              <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
                 <ProjectCard
                   type="Project"
                   title="Todo-List"
@@ -88,7 +97,7 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="my-10 w-full mx-auto h-[50%]">
+            <div className="my-5 w-full mx-auto h-[50%]">
               <ProjectCard
                 type="Project"
                 title="Mma Jobs"
