@@ -51,7 +51,7 @@ export default function Page() {
               github="https://github.com/chinwaneti/oja"
             />
            
-        <div className="">
+        <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
           <ProjectCard
           type=" Project"
           title="Chidinma"
