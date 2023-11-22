@@ -42,7 +42,7 @@ export default function Page() {
 
       <div className="">
 
-         <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+         <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
             <ProjectCard
               type="Project"
               title="Oja (e-commerce)"
@@ -75,7 +75,7 @@ export default function Page() {
          
           </div>
           <div className="">
-            <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+            <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
               <ProjectCard
                 type="Project"
                 title="MovieHub"
@@ -85,7 +85,7 @@ export default function Page() {
               />
             </div>
             <div className="">
-              <div className="my-5 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
+              <div className="my-10 md:w-[90%] sm:w-[80%] w-[90%] mx-auto">
                 <ProjectCard
                   type="Project"
                   title="Todo-List"
@@ -96,7 +96,7 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="my-5 w-full mx-auto h-[50%]">
+            <div className="my-10 w-full mx-auto h-[50%]">
               <ProjectCard
                 type="Project"
                 title="Mma Jobs"
