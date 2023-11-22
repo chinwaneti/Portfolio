@@ -53,16 +53,15 @@ export default function Page() {
            
         <div className="">
           <ProjectCard
-            type=" Project"
-            title="Chidinma"
-            
-           "Indulge in the epitome of luxury with our Chidinma Restuarant, where seamless elegance meets top-notch security. Powered by the perfect blend of ReactJS, Next.js, and fortified with Firebase authentication, our app ensures a sophisticated and secure experience as you explore and reserve our premium hospitality services. Designed with finesse using Tailwind CSS, this is where convenience and exclusivity converge. Immerse yourself in a world of seamless reservations and personalized services—all in one place."
-
-
-
-
-
-
+          type=" Project"
+          title="Chidinma"
+          summary= "Indulge in the epitome of luxury with our Chidinma Restuarant,
+            where seamless elegance meets top-notch security. Powered by the perfect
+            blend of ReactJS, Next.js, and fortified with Firebase authentication, 
+            our app ensures a sophisticated and secure experience as you explore and
+            reserve our premium hospitality services. Designed with finesse using Tailwind CSS, 
+            this is where convenience and exclusivity converge. Immerse yourself in a world of 
+            seamless reservations and personalized services—all in one place."
             link="https://hotel-ruby-iota.vercel.app/"
             github="https://github.com/chinwaneti/hotel"
           />
